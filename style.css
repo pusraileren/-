@@ -1,0 +1,43 @@
+header {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+footer p:last-child {
+    visibility: hidden;
+}
